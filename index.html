@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel="stylesheet" href="style.css">
 
 <body>
     <h1>Pemrograman Berorientasi Platform</h1>
@@ -30,17 +31,38 @@
           <th>Nama</th>
           <th>Usia</th>
           <th>Kota</th>
+          <th>Fakultas</th>
+          <th>Jurusan</th>
         </tr>
         <tr>
           <td>Falah</td>
           <td>17</td>
           <td>Raha</td>
+          <td>Matematika Dan Ilmu Pengetahuan Alam</td>
+          <td>Matematika</td>
         </tr>
         <tr>
           <td>Febri</td>
           <td>20</td>
           <td>Raha</td>
+          <td>Fakultas Ekonomi Dan Bisnis</td>
+          <td>Akutansi</td>
         </tr>
       </table>
+    </div>
+<div>
+    <h2>Formulir</h2>
+    <form onsubmit="handleSubmit(event)">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="angkatan">Angkatan:</label>
+        <input type="angkatan" id="angkatan" name="angkatan" required><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
     </div>
 </html>
